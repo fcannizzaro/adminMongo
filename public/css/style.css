@@ -257,6 +257,19 @@ html, body {
     background-color: #f5f8fa;
 }
 
+.ssh_method {
+    padding-top: 16px;
+    text-align: center;
+}
+
+.ssh_method input {
+    margin-left: 16px;
+}
+
+.form-hidden {
+    display: none;
+}
+
 #doc_load_placeholder{
     padding-top: 150px;
 }
@@ -351,9 +364,12 @@ h4{
 }
 
 .conectionOptions{
-    max-height: 60px;
     min-height: 60px;
     overflow: auto
+}
+
+.tr-divider {
+    border-bottom: 1px solid #eaeaea;
 }
 
 .new_doc_button{
